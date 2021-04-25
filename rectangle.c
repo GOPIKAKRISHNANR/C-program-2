@@ -5,17 +5,17 @@
 #include<stdio.h>
 int main()
 {
-  int l,b,p,a;
+  float l,b,p,a;
   printf("Enter the length and breadth of rectangle :");
-  scanf("%d%d",&l,&b);
+  scanf("%f%f",&l,&b);
   p=(2*l)+(2*b);
   a=l*b;
   if(a>p)
   {
-    printf("Area of the rectangle %d is greater than its perimeter %d\n",a,p);
+    printf("Area of the rectangle %f is greater than its perimeter %f\n",a,p);
   }
   else
   {
-    printf("Area of the rectangle %d is not greater than its perimeter %d\n",a,p);
+    printf("Area of the rectangle %f is not greater than its perimeter %f\n",a,p);
   }
 }
