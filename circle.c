@@ -12,7 +12,7 @@ int main()
   scanf("%f%f",&h,&k);
   printf("Enter the radius of the circle  :");
   scanf("%f",&r);
-  d=pow((h-x),2)+pow((k-y),2);//distance from(h,k) to (x,y)
+  d=sqrt(pow((h-x),2)+pow((k-y),2));//distance from(h,k) to (x,y)
   if(d>r)
   {
     printf("The point is outside the circle\n");
