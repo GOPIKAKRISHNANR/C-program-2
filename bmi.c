@@ -1,6 +1,6 @@
 /*program to calculate body mass index(bmi)
   and reports the bmi category
-  bmi = weight(w)/pow(height(h),2)
+  bmi = weight(w)/(height*height(h))
 */
 #include<stdio.h>
 int main()
