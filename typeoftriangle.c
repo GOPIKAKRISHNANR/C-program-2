@@ -19,4 +19,8 @@ int main()
   {
     printf("It is a Right angled triangle\n");
   }
+  else
+  {
+    printf("Invalid sides\n");
+  }
 }
