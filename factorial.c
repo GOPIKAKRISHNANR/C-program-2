@@ -1,4 +1,4 @@
-//factorial of a number
+//program to find factorial of a number
 #include<stdio.h>
 int main()
 {
